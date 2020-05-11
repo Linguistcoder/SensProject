@@ -6,7 +6,9 @@
 </head>
 <body>
     <h1>{{ title }}</h1>
-    <img src="{{ url_for('figure',frekvens=frek) }}" alt="Sinuskurve">
+    <img src="{{ url_for('figure',frekvens=frek) }}"
+         alt="Sinuskurve"
+         width="{{ width }}" height="{{ height }}">
 
 </body>
 </html>

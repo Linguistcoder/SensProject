@@ -6,7 +6,8 @@ basedir = os.path.abspath(os.path.dirname(__file__))
 class Config(object):
     DEBUG = False
     TESTING = False
-    MAX_CONTENT_LENGTH = 16 * 1024 * 2024
+    PLOT_HEIGHT = 500
+    PLOT_WIDTH = 700
 
 
 class ProductionConfig(Config):
@@ -14,6 +15,7 @@ class ProductionConfig(Config):
 
 
 class DevelopmentConfig(Config):
+    ENV = 'development'
     DEVELOPMENT = True
     DEBUG = True
 
