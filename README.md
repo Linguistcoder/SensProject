@@ -46,6 +46,11 @@ Create and activate in Windows terminal:
 py -m venv env
 .\env\Scripts\activate
 ```
+To close virtual environment, just use deactivate command:
+```
+deactivate
+```
+
 
 The required libraries can be installed by:
 ```
