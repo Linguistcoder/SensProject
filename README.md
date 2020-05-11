@@ -33,6 +33,25 @@ The repository includes the following files relevant for running the app:
 
 Make sure you have access to all the files before running the app.
 
+### Create virtual environment
+The app should be run in a virtual environment
+
+Create and activate in mac/linux terminal:
+```
+python3 -m venv env
+source env/bin/activate
+```
+Create and activate in Windows terminal:
+```
+py -m venv env
+.\env\Scripts\activate
+```
+
+The required libraries can be installed by:
+```
+pip install -r requirements.txt
+```
+
 The app can be run in the terminal by running app.py:
 ```
 python app.py
